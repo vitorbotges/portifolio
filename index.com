@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #0077ff;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #0077ff;
+            border-bottom: 2px solid #0077ff;
+            padding-bottom: 5px;
+        }
+
+        .info {
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #0077ff;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            color: #0077ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Olá, eu sou [Seu Nome]</h1>
+        <p>Estudante e apaixonado(a) por tecnologia 💻</p>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p class="info">
+            Meu nome é [Seu Nome], tenho [sua idade] anos e sou estudante de [curso ou área de estudo]. 
+            Sou curioso(a), dedicado(a) e gosto muito de aprender novas tecnologias e desenvolver projetos criativos.
+        </p>
+    </section>
+
+    <section id="oque-faco">
+        <h2>O que eu faço</h2>
+        <p class="info">
+            Atualmente, estudo e pratico desenvolvimento web, criando sites e pequenos sistemas.  
+            Tenho interesse em áreas como <strong>programação</strong>, <strong>design</strong> e <strong>inovação tecnológica</strong>.  
+            Busco sempre melhorar minhas habilidades e aprender com novos desafios.
+        </p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p class="info">
+            Você pode entrar em contato comigo pelos seguintes canais:
+        </p>
+        <ul>
+            <li>Email: <a href="mailto:seuemail@email.com">seuemail@email.com</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a></li>
+            <li>GitHub: <a href="https://github.com/seuusuario" target="_blank">github.com/seuusuario</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 [Seu Nome] - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
